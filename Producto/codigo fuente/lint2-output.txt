@@ -1,0 +1,302 @@
+
+> sotloy-conecta@0.0.1 lint
+> eslint . --report-unused-disable-directives --max-warnings 0 --max-warnings 0
+
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\components\ChatBot.tsx
+  7:3  error  'ChevronDown' is defined but never used  @typescript-eslint/no-unused-vars
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\components\Header.tsx
+  4:3  error  'Search' is defined but never used  @typescript-eslint/no-unused-vars
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\components\conecta\AdminView.tsx
+    7:3   error    'CheckCircle' is defined but never used                                                                      @typescript-eslint/no-unused-vars
+    8:3   error    'Clock' is defined but never used                                                                            @typescript-eslint/no-unused-vars
+   10:3   error    'TrendingUp' is defined but never used                                                                       @typescript-eslint/no-unused-vars
+   11:3   error    'Eye' is defined but never used                                                                              @typescript-eslint/no-unused-vars
+   17:3   error    'Calendar' is defined but never used                                                                         @typescript-eslint/no-unused-vars
+   20:10  error    'useAuth' is defined but never used                                                                          @typescript-eslint/no-unused-vars
+  103:10  error    'selectedCompany' is assigned a value but never used                                                         @typescript-eslint/no-unused-vars
+  103:27  error    'setSelectedCompany' is assigned a value but never used                                                      @typescript-eslint/no-unused-vars
+  116:50  error    Unexpected any. Specify a different type                                                                     @typescript-eslint/no-explicit-any
+  120:46  error    Unexpected any. Specify a different type                                                                     @typescript-eslint/no-explicit-any
+  156:6   warning  React Hook useEffect has a missing dependency: 'loadData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  195:48  error    Unexpected any. Specify a different type                                                                     @typescript-eslint/no-explicit-any
+  332:66  error    Unexpected any. Specify a different type                                                                     @typescript-eslint/no-explicit-any
+  369:9   error    'totalPagado' is assigned a value but never used                                                             @typescript-eslint/no-unused-vars
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\components\conecta\AuditLogViewer.tsx
+  110:5   error    'verifyIntegrity' is assigned a value but never used                                                         @typescript-eslint/no-unused-vars
+  118:6   warning  React Hook useEffect has a missing dependency: 'loadLogs'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  151:20  error    Unexpected any. Specify a different type                                                                     @typescript-eslint/no-explicit-any
+  518:44  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`                                              react/no-unescaped-entities
+  518:57  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`                                              react/no-unescaped-entities
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\components\conecta\CargasManager.tsx
+  12:3  error    'AlertCircle' is defined but never used                                                                        @typescript-eslint/no-unused-vars
+  48:6  warning  React Hook useEffect has a missing dependency: 'loadCargas'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\components\conecta\ChatbotIA.tsx
+   9:3   error  'AlertCircle' is defined but never used     @typescript-eslint/no-unused-vars
+  11:18  error  'AuthUser' is defined but never used        @typescript-eslint/no-unused-vars
+  78:10  error  'error' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\components\conecta\ConectaLayout.tsx
+  3:24  error  'X' is defined but never used  @typescript-eslint/no-unused-vars
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\components\conecta\DocumentTrackingModal.tsx
+  1:10  error  'useEffect' is defined but never used  @typescript-eslint/no-unused-vars
+  1:21  error  'useState' is defined but never used   @typescript-eslint/no-unused-vars
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\components\conecta\DocumentTrackingPanel.tsx
+  14:3  error    'CheckCircle' is defined but never used                                                                      @typescript-eslint/no-unused-vars
+  15:3  error    'AlertCircle' is defined but never used                                                                      @typescript-eslint/no-unused-vars
+  37:6  warning  React Hook useEffect has a missing dependency: 'loadData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\components\conecta\DocumentUpload.tsx
+  143:15  error  'path' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\components\conecta\DocumentVersionManager.tsx
+  13:3  error    'AlertCircle' is defined but never used                                                                          @typescript-eslint/no-unused-vars
+  15:3  error    'Clock' is defined but never used                                                                                @typescript-eslint/no-unused-vars
+  17:3  error    'FileUp' is defined but never used                                                                               @typescript-eslint/no-unused-vars
+  18:3  error    'Eye' is defined but never used                                                                                  @typescript-eslint/no-unused-vars
+  35:3  error    'documentoNombre' is defined but never used                                                                      @typescript-eslint/no-unused-vars
+  52:6  warning  React Hook useEffect has a missing dependency: 'loadVersions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\components\conecta\EmpleadosManager.tsx
+  10:3   error    'ChevronDown' is defined but never used                                                                           @typescript-eslint/no-unused-vars
+  11:3   error    'ChevronUp' is defined but never used                                                                             @typescript-eslint/no-unused-vars
+  15:3   error    'DollarSign' is defined but never used                                                                            @typescript-eslint/no-unused-vars
+  18:3   error    'AlertCircle' is defined but never used                                                                           @typescript-eslint/no-unused-vars
+  20:3   error    'MoreVertical' is defined but never used                                                                          @typescript-eslint/no-unused-vars
+  21:3   error    'FileText' is defined but never used                                                                              @typescript-eslint/no-unused-vars
+  26:25  error    'Carga' is defined but never used                                                                                 @typescript-eslint/no-unused-vars
+  41:47  error    'isAdmin' is assigned a value but never used                                                                      @typescript-eslint/no-unused-vars
+  69:6   warning  React Hook useEffect has a missing dependency: 'loadEmpleados'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\components\conecta\EmpresaDashboardSection.tsx
+  28:9  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  35:3  error  'user' is defined but never used          @typescript-eslint/no-unused-vars
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\components\conecta\EmpresaPerfilSection.tsx
+  1:10  error  'Building2' is defined but never used     @typescript-eslint/no-unused-vars
+  1:47  error  'X' is defined but never used             @typescript-eslint/no-unused-vars
+  4:9   error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\components\conecta\EmpresaView.tsx
+    7:3   error    'AlertCircle' is defined but never used                                                                            @typescript-eslint/no-unused-vars
+   11:3   error    'Eye' is defined but never used                                                                                    @typescript-eslint/no-unused-vars
+   16:19  error    'User' is defined but never used                                                                                   @typescript-eslint/no-unused-vars
+   89:16  error    'setDocs' is assigned a value but never used                                                                       @typescript-eslint/no-unused-vars
+   93:10  error    'uploading' is assigned a value but never used                                                                     @typescript-eslint/no-unused-vars
+  109:6   warning  React Hook useEffect has a missing dependency: 'loadData'. Either include it or remove the dependency array        react-hooks/exhaustive-deps
+  117:6   warning  React Hook useEffect has a missing dependency: 'selectedWorker'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  329:61  error    Unexpected any. Specify a different type                                                                           @typescript-eslint/no-explicit-any
+  360:9   error    'handleUpload' is assigned a value but never used                                                                  @typescript-eslint/no-unused-vars
+  495:59  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`                                                    react/no-unescaped-entities
+  495:78  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`                                                    react/no-unescaped-entities
+  502:47  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`                                                    react/no-unescaped-entities
+  502:66  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`                                                    react/no-unescaped-entities
+  503:54  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`                                                    react/no-unescaped-entities
+  503:62  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`                                                    react/no-unescaped-entities
+  505:62  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`                                                    react/no-unescaped-entities
+  505:80  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`                                                    react/no-unescaped-entities
+  974:50  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`                                                    react/no-unescaped-entities
+  974:63  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`                                                    react/no-unescaped-entities
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\components\conecta\EnterpriseDocumentView.tsx
+    4:3   error    'Download' is defined but never used                                                                         @typescript-eslint/no-unused-vars
+    6:3   error    'AlertCircle' is defined but never used                                                                      @typescript-eslint/no-unused-vars
+    7:3   error    'CheckCircle2' is defined but never used                                                                     @typescript-eslint/no-unused-vars
+    8:3   error    'Clock' is defined but never used                                                                            @typescript-eslint/no-unused-vars
+    9:3   error    'Sparkles' is defined but never used                                                                         @typescript-eslint/no-unused-vars
+   11:3   error    'Users' is defined but never used                                                                            @typescript-eslint/no-unused-vars
+   76:10  error    'error' is assigned a value but never used                                                                   @typescript-eslint/no-unused-vars
+  234:6   warning  React Hook useEffect has a missing dependency: 'loadData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  239:11  error    'currentUser' is assigned a value but never used                                                             @typescript-eslint/no-unused-vars
+  635:30  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`                                              react/no-unescaped-entities
+  635:46  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`                                              react/no-unescaped-entities
+  640:39  error    'i' is defined but never used                                                                                @typescript-eslint/no-unused-vars
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\components\conecta\LoyChat.tsx
+  64:6  warning  React Hook useEffect has a missing dependency: 'loadConversation'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\components\conecta\LoyGatekeeper.tsx
+  10:3  error  'Filter' is defined but never used  @typescript-eslint/no-unused-vars
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\components\conecta\MessageCenter.tsx
+    6:3   error    'Users' is defined but never used                                                                                                                                                    @typescript-eslint/no-unused-vars
+   11:3   error    'Filter' is defined but never used                                                                                                                                                   @typescript-eslint/no-unused-vars
+   60:10  error    'loading' is assigned a value but never used                                                                                                                                         @typescript-eslint/no-unused-vars
+   62:62  error    Unexpected any. Specify a different type                                                                                                                                             @typescript-eslint/no-explicit-any
+   65:34  error    Unexpected any. Specify a different type                                                                                                                                             @typescript-eslint/no-explicit-any
+  103:6   warning  React Hook useEffect has missing dependencies: 'handleNewMessage', 'loadAvailableContacts', 'loadConversations', and 'supabase'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  116:6   warning  React Hook useEffect has missing dependencies: 'loadMessages' and 'markAsRead'. Either include them or remove the dependency array                                                   react-hooks/exhaustive-deps
+  118:44  error    Unexpected any. Specify a different type                                                                                                                                             @typescript-eslint/no-explicit-any
+  214:27  error    Unexpected any. Specify a different type                                                                                                                                             @typescript-eslint/no-explicit-any
+  243:31  error    Unexpected any. Specify a different type                                                                                                                                             @typescript-eslint/no-explicit-any
+  286:23  error    Unexpected any. Specify a different type                                                                                                                                             @typescript-eslint/no-explicit-any
+  297:17  error    Unexpected any. Specify a different type                                                                                                                                             @typescript-eslint/no-explicit-any
+  297:25  error    Unexpected any. Specify a different type                                                                                                                                             @typescript-eslint/no-explicit-any
+  383:36  error    Unexpected any. Specify a different type                                                                                                                                             @typescript-eslint/no-explicit-any
+  383:43  error    'isSent' is defined but never used                                                                                                                                                   @typescript-eslint/no-unused-vars
+  384:27  error    Unexpected any. Specify a different type                                                                                                                                             @typescript-eslint/no-explicit-any
+  546:45  error    Unexpected any. Specify a different type                                                                                                                                             @typescript-eslint/no-explicit-any
+  824:25  error    'showAvatar' is assigned a value but never used                                                                                                                                      @typescript-eslint/no-unused-vars
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\components\conecta\NotificationsPanel.tsx
+   5:3   error  'FileText' is defined but never used       @typescript-eslint/no-unused-vars
+   6:3   error  'UserPlus' is defined but never used       @typescript-eslint/no-unused-vars
+   9:3   error  'MessageSquare' is defined but never used  @typescript-eslint/no-unused-vars
+  20:46  error  'userRol' is defined but never used        @typescript-eslint/no-unused-vars
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\components\conecta\ProtectedRoute.tsx
+  73:17  warning  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\components\conecta\SubscriptionManager.tsx
+   7:3   error    'AlertCircle' is defined but never used                                                                              @typescript-eslint/no-unused-vars
+   9:3   error    'DollarSign' is defined but never used                                                                               @typescript-eslint/no-unused-vars
+  10:3   error    'TrendingUp' is defined but never used                                                                               @typescript-eslint/no-unused-vars
+  16:3   error    'ChevronRight' is defined but never used                                                                             @typescript-eslint/no-unused-vars
+  17:3   error    'RefreshCw' is defined but never used                                                                                @typescript-eslint/no-unused-vars
+  77:50  error    'isAdmin' is assigned a value but never used                                                                         @typescript-eslint/no-unused-vars
+  90:6   warning  React Hook useEffect has a missing dependency: 'loadSubscription'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\components\conecta\SuperAdminView.tsx
+     4:3   error    'Users' is defined but never used                                                                                                                                                            @typescript-eslint/no-unused-vars
+     9:3   error    'CheckCircle' is defined but never used                                                                                                                                                      @typescript-eslint/no-unused-vars
+    13:3   error    'Upload' is defined but never used                                                                                                                                                           @typescript-eslint/no-unused-vars
+    17:10  error    'useAuth' is defined but never used                                                                                                                                                          @typescript-eslint/no-unused-vars
+    21:10  error    'SecureDocumentView' is defined but never used                                                                                                                                               @typescript-eslint/no-unused-vars
+   161:6   warning  React Hook useEffect has a missing dependency: 'reload'. Either include it or remove the dependency array                                                                                    react-hooks/exhaustive-deps
+  1775:35  error    React Hook "useState" is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?   react-hooks/rules-of-hooks
+  1776:23  error    'setEmpresaId' is assigned a value but never used                                                                                                                                            @typescript-eslint/no-unused-vars
+  1776:39  error    React Hook "useState" is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?   react-hooks/rules-of-hooks
+  1777:41  error    React Hook "useState" is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?   react-hooks/rules-of-hooks
+  1780:5   error    React Hook "useEffect" is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?  react-hooks/rules-of-hooks
+  1795:8   warning  React Hook useEffect has a missing dependency: 'supabase'. Either include it or remove the dependency array                                                                                  react-hooks/exhaustive-deps
+  1894:15  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`                                                                                                                              react/no-unescaped-entities
+  1894:26  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`                                                                                                                              react/no-unescaped-entities
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\components\conecta\UserEnterpriseAssignment.tsx
+    7:3   error    'Search' is defined but never used                                                                           @typescript-eslint/no-unused-vars
+   30:11  error    'Assignment' is defined but never used                                                                       @typescript-eslint/no-unused-vars
+   39:28  error    'apiDelete' is assigned a value but never used                                                               @typescript-eslint/no-unused-vars
+   52:6   warning  React Hook useEffect has a missing dependency: 'loadData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+   78:14  error    'err' is defined but never used                                                                              @typescript-eslint/no-unused-vars
+  116:14  error    'err' is defined but never used                                                                              @typescript-eslint/no-unused-vars
+  141:14  error    'err' is defined but never used                                                                              @typescript-eslint/no-unused-vars
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\components\conecta\UsuarioView.tsx
+    4:3   error    'Download' is defined but never used                                                                         @typescript-eslint/no-unused-vars
+    5:3   error    'Eye' is defined but never used                                                                              @typescript-eslint/no-unused-vars
+   16:3   error    'Camera' is defined but never used                                                                           @typescript-eslint/no-unused-vars
+   72:9   error    Unexpected any. Specify a different type                                                                     @typescript-eslint/no-explicit-any
+  122:61  error    Unexpected any. Specify a different type                                                                     @typescript-eslint/no-explicit-any
+  148:6   warning  React Hook useEffect has a missing dependency: 'loadDocs'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  169:16  error    'err' is defined but never used                                                                              @typescript-eslint/no-unused-vars
+  175:6   warning  React Hook useEffect has a missing dependency: 'supabase'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  406:10  error    Unexpected any. Specify a different type                                                                     @typescript-eslint/no-explicit-any
+  529:9   error    Unexpected any. Specify a different type                                                                     @typescript-eslint/no-explicit-any
+  586:19  error    Unexpected any. Specify a different type                                                                     @typescript-eslint/no-explicit-any
+  629:19  error    Unexpected any. Specify a different type                                                                     @typescript-eslint/no-explicit-any
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\components\ui\badge.tsx
+  46:17  warning  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\components\ui\button.tsx
+  58:18  warning  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\components\ui\calendar.tsx
+  63:22  error  'className' is missing in props validation  react/prop-types
+  66:23  error  'className' is missing in props validation  react/prop-types
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\components\ui\form.tsx
+  160:3  warning  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\components\ui\navigation-menu.tsx
+  167:3  warning  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\components\ui\sidebar.tsx
+  725:3  warning  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\components\ui\toggle.tsx
+  47:18  warning  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\context\AuthContext.tsx
+   16:17  warning  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components            react-refresh/only-export-components
+  195:6   warning  React Hook useEffect has missing dependencies: 'loadUserProfile' and 'supabase.auth'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  198:13  error    'data' is assigned a value but never used                                                                                                 @typescript-eslint/no-unused-vars
+  208:19  error    'authData' is assigned a value but never used                                                                                             @typescript-eslint/no-unused-vars
+  324:17  warning  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components            react-refresh/only-export-components
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\hooks\useDocumentTracking.ts
+  55:17  error  'data' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\hooks\useEmpleados.ts
+  108:27  error  'empleadoId' is defined but never used  @typescript-eslint/no-unused-vars
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\hooks\useNotifications.test.tsx
+  1:32  error  'vi' is defined but never used  @typescript-eslint/no-unused-vars
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\pages\ForgotPassword.tsx
+  3:27  error  'CheckCircle' is defined but never used  @typescript-eslint/no-unused-vars
+  3:40  error  'AlertCircle' is defined but never used  @typescript-eslint/no-unused-vars
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\pages\ResetPassword.tsx
+  54:14  error  'error' is defined but never used  @typescript-eslint/no-unused-vars
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\pages\conecta\ConectaDashboard.tsx
+  13:3  error  'X' is defined but never used            @typescript-eslint/no-unused-vars
+  14:3  error  'ChevronDown' is defined but never used  @typescript-eslint/no-unused-vars
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\pages\conecta\DocumentacionPage.tsx
+   6:3  error  'Users' is defined but never used       @typescript-eslint/no-unused-vars
+   9:3  error  'Search' is defined but never used      @typescript-eslint/no-unused-vars
+  10:3  error  'Filter' is defined but never used      @typescript-eslint/no-unused-vars
+  11:3  error  'Download' is defined but never used    @typescript-eslint/no-unused-vars
+  12:3  error  'Eye' is defined but never used         @typescript-eslint/no-unused-vars
+  13:3  error  'Clock' is defined but never used       @typescript-eslint/no-unused-vars
+  16:3  error  'Building2' is defined but never used   @typescript-eslint/no-unused-vars
+  20:3  error  'Globe' is defined but never used       @typescript-eslint/no-unused-vars
+  21:3  error  'Cpu' is defined but never used         @typescript-eslint/no-unused-vars
+  23:3  error  'TrendingUp' is defined but never used  @typescript-eslint/no-unused-vars
+  24:3  error  'Archive' is defined but never used     @typescript-eslint/no-unused-vars
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\pages\conecta\EmpresaPage.tsx
+  6:3  error  'Upload' is defined but never used  @typescript-eslint/no-unused-vars
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\pages\conecta\PagosPage.tsx
+   13:3   error  'Shield' is defined but never used                                                                                                                                                           @typescript-eslint/no-unused-vars
+   18:24  error  'Subscription' is defined but never used                                                                                                                                                     @typescript-eslint/no-unused-vars
+   91:3   error  React Hook "useEffect" is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?  react-hooks/rules-of-hooks
+  130:34  error  'payment' is defined but never used                                                                                                                                                          @typescript-eslint/no-unused-vars
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\pages\conecta\PerfilPage.tsx
+   1:20  error  'useEffect' is defined but never used                                                                                                                                                       @typescript-eslint/no-unused-vars
+  32:35  error  React Hook "useState" is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?  react-hooks/rules-of-hooks
+  40:43  error  React Hook "useState" is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?  react-hooks/rules-of-hooks
+  46:35  error  React Hook "useState" is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?  react-hooks/rules-of-hooks
+  47:55  error  React Hook "useState" is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?  react-hooks/rules-of-hooks
+  48:57  error  React Hook "useState" is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?  react-hooks/rules-of-hooks
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\routes.tsx
+  13:7  error    'Dashboard' is assigned a value but never used                                                          @typescript-eslint/no-unused-vars
+  22:7  warning  Fast refresh only works when a file only exports components. Move your component(s) to a separate file  react-refresh/only-export-components
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\types\database.ts
+  142:34  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  260:29  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\utils\api.ts
+   85:48  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   87:25  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   90:53  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  117:14  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  122:51  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  136:15  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  143:25  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+✖ 203 problems (174 errors, 29 warnings)
+

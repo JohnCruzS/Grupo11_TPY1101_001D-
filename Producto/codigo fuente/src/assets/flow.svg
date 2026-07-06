@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 84 30" width="84" height="30" role="img" aria-label="Flow">
+  <defs>
+    <linearGradient id="flowG" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#16C7F0"/>
+      <stop offset="1" stop-color="#2E8BE6"/>
+    </linearGradient>
+  </defs>
+  <rect width="84" height="30" rx="7" fill="url(#flowG)"/>
+  <text x="42" y="21" font-family="'Trebuchet MS', Verdana, Arial, sans-serif" font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="1">flow</text>
+</svg>

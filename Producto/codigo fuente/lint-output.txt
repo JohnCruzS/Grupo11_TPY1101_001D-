@@ -1,0 +1,653 @@
+﻿
+> sotloy-conecta@0.0.1 lint
+> eslint . --report-unused-disable-directives --max-warnings 0 --max-warnings 0
+
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\components\ActionButtons.tsx
+  17:16  error  'React' is not defined  no-undef
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\components\ChatBot.tsx
+   7:3   error  'ChevronDown' is defined but never used  @typescript-eslint/no-unused-vars
+  41:33  error  'HTMLDivElement' is not defined          no-undef
+  82:7   error  'console' is not defined                 no-undef
+  95:44  error  'HTMLInputElement' is not defined        no-undef
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\components\Header.tsx
+   4:3   error  'Search' is defined but never used  @typescript-eslint/no-unused-vars
+  31:30  error  'HTMLDivElement' is not defined     no-undef
+  41:29  error  'MouseEvent' is not defined         no-undef
+  44:51  error  'Node' is not defined               no-undef
+  62:35  error  'React' is not defined              no-undef
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\components\conecta\AdminView.tsx
+    7:3   error    'CheckCircle' is defined but never used                                                                      @typescript-eslint/no-unused-vars
+    8:3   error    'Clock' is defined but never used                                                                            @typescript-eslint/no-unused-vars
+   10:3   error    'TrendingUp' is defined but never used                                                                       @typescript-eslint/no-unused-vars
+   11:3   error    'Eye' is defined but never used                                                                              @typescript-eslint/no-unused-vars
+   17:3   error    'Calendar' is defined but never used                                                                         @typescript-eslint/no-unused-vars
+   20:10  error    'useAuth' is defined but never used                                                                          @typescript-eslint/no-unused-vars
+  103:10  error    'selectedCompany' is assigned a value but never used                                                         @typescript-eslint/no-unused-vars
+  103:27  error    'setSelectedCompany' is assigned a value but never used                                                      @typescript-eslint/no-unused-vars
+  116:50  error    Unexpected any. Specify a different type                                                                     @typescript-eslint/no-explicit-any
+  120:46  error    Unexpected any. Specify a different type                                                                     @typescript-eslint/no-explicit-any
+  139:7   error    'console' is not defined                                                                                     no-undef
+  146:22  error    'setInterval' is not defined                                                                                 no-undef
+  154:7   error    'clearInterval' is not defined                                                                               no-undef
+  156:6   warning  React Hook useEffect has a missing dependency: 'loadData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  182:9   error    'console' is not defined                                                                                     no-undef
+  185:9   error    'console' is not defined                                                                                     no-undef
+  188:9   error    'console' is not defined                                                                                     no-undef
+  195:48  error    Unexpected any. Specify a different type                                                                     @typescript-eslint/no-explicit-any
+  206:7   error    'console' is not defined                                                                                     no-undef
+  207:7   error    'console' is not defined                                                                                     no-undef
+  211:7   error    'console' is not defined                                                                                     no-undef
+  242:7   error    'console' is not defined                                                                                     no-undef
+  245:7   error    'console' is not defined                                                                                     no-undef
+  252:7   error    'console' is not defined                                                                                     no-undef
+  268:9   error    'console' is not defined                                                                                     no-undef
+  270:9   error    'console' is not defined                                                                                     no-undef
+  274:7   error    'console' is not defined                                                                                     no-undef
+  285:5   error    'console' is not defined                                                                                     no-undef
+  294:7   error    'console' is not defined                                                                                     no-undef
+  295:7   error    'console' is not defined                                                                                     no-undef
+  298:9   error    'console' is not defined                                                                                     no-undef
+  302:7   error    'console' is not defined                                                                                     no-undef
+  310:9   error    'console' is not defined                                                                                     no-undef
+  321:9   error    'console' is not defined                                                                                     no-undef
+  326:9   error    'console' is not defined                                                                                     no-undef
+  329:11  error    'console' is not defined                                                                                     no-undef
+  332:66  error    Unexpected any. Specify a different type                                                                     @typescript-eslint/no-explicit-any
+  342:9   error    'console' is not defined                                                                                     no-undef
+  345:9   error    'console' is not defined                                                                                     no-undef
+  358:9   error    'console' is not defined                                                                                     no-undef
+  363:7   error    'console' is not defined                                                                                     no-undef
+  369:9   error    'totalPagado' is assigned a value but never used                                                             @typescript-eslint/no-unused-vars
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\components\conecta\AuditLogViewer.tsx
+   31:41  error    'React' is not defined                                                                                       no-undef
+  110:5   error    'verifyIntegrity' is assigned a value but never used                                                         @typescript-eslint/no-unused-vars
+  118:6   warning  React Hook useEffect has a missing dependency: 'loadLogs'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  151:20  error    Unexpected any. Specify a different type                                                                     @typescript-eslint/no-explicit-any
+  518:44  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`                                              react/no-unescaped-entities
+  518:57  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`                                              react/no-unescaped-entities
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\components\conecta\CargasManager.tsx
+   12:3   error    'AlertCircle' is defined but never used                                                                        @typescript-eslint/no-unused-vars
+   48:6   warning  React Hook useEffect has a missing dependency: 'loadCargas'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+   64:7   error    'console' is not defined                                                                                       no-undef
+   70:34  error    'React' is not defined                                                                                         no-undef
+  100:7   error    'console' is not defined                                                                                       no-undef
+  105:10  error    'confirm' is not defined                                                                                       no-undef
+  119:7   error    'console' is not defined                                                                                       no-undef
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\components\conecta\ChatbotIA.tsx
+    9:3   error  'AlertCircle' is defined but never used     @typescript-eslint/no-unused-vars
+   11:18  error  'AuthUser' is defined but never used        @typescript-eslint/no-unused-vars
+   63:9   error  'ConectaUser' is not defined                no-undef
+   78:10  error  'error' is assigned a value but never used  @typescript-eslint/no-unused-vars
+   80:28  error  'HTMLDivElement' is not defined             no-undef
+   81:27  error  'HTMLInputElement' is not defined           no-undef
+   94:13  error  'crypto' is not defined                     no-undef
+  114:7   error  'console' is not defined                    no-undef
+  120:9   error  'console' is not defined                    no-undef
+  135:15  error  'crypto' is not defined                     no-undef
+  144:7   error  'console' is not defined                    no-undef
+  149:15  error  'crypto' is not defined                     no-undef
+  161:39  error  'HTMLInputElement' is not defined           no-undef
+  369:35  error  'HTMLButtonElement' is not defined          no-undef
+  371:35  error  'HTMLButtonElement' is not defined          no-undef
+  374:35  error  'HTMLButtonElement' is not defined          no-undef
+  376:35  error  'HTMLButtonElement' is not defined          no-undef
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\components\conecta\ConectaLayout.tsx
+  3:24  error  'X' is defined but never used  @typescript-eslint/no-unused-vars
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\components\conecta\DocumentTrackingModal.tsx
+  1:10  error  'useEffect' is defined but never used  @typescript-eslint/no-unused-vars
+  1:21  error  'useState' is defined but never used   @typescript-eslint/no-unused-vars
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\components\conecta\DocumentTrackingPanel.tsx
+  14:3  error    'CheckCircle' is defined but never used                                                                      @typescript-eslint/no-unused-vars
+  15:3  error    'AlertCircle' is defined but never used                                                                      @typescript-eslint/no-unused-vars
+  37:6  warning  React Hook useEffect has a missing dependency: 'loadData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  56:7  error    'console' is not defined                                                                                     no-undef
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\components\conecta\DocumentUpload.tsx
+   62:52  error  'File' is not defined                      no-undef
+   68:31  error  'HTMLInputElement' is not defined          no-undef
+   70:30  error  'React' is not defined                     no-undef
+   75:31  error  'React' is not defined                     no-undef
+   80:26  error  'React' is not defined                     no-undef
+   89:35  error  'File' is not defined                      no-undef
+  107:37  error  'React' is not defined                     no-undef
+  107:55  error  'HTMLInputElement' is not defined          no-undef
+  143:15  error  'path' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\components\conecta\DocumentVersionManager.tsx
+   13:3   error    'AlertCircle' is defined but never used                                                                          @typescript-eslint/no-unused-vars
+   15:3   error    'Clock' is defined but never used                                                                                @typescript-eslint/no-unused-vars
+   17:3   error    'FileUp' is defined but never used                                                                               @typescript-eslint/no-unused-vars
+   18:3   error    'Eye' is defined but never used                                                                                  @typescript-eslint/no-unused-vars
+   35:3   error    'documentoNombre' is defined but never used                                                                      @typescript-eslint/no-unused-vars
+   44:52  error    'File' is not defined                                                                                            no-undef
+   52:6   warning  React Hook useEffect has a missing dependency: 'loadVersions'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+   67:7   error    'console' is not defined                                                                                         no-undef
+   74:38  error    'File' is not defined                                                                                            no-undef
+   76:30  error    'crypto' is not defined                                                                                          no-undef
+   82:34  error    'React' is not defined                                                                                           no-undef
+  144:7   error    'console' is not defined                                                                                         no-undef
+  152:10  error    'confirm' is not defined                                                                                         no-undef
+  168:7   error    'console' is not defined                                                                                         no-undef
+  178:7   error    'console' is not defined                                                                                         no-undef
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\components\conecta\EmpleadosManager.tsx
+   10:3   error    'ChevronDown' is defined but never used                                                                           @typescript-eslint/no-unused-vars
+   11:3   error    'ChevronUp' is defined but never used                                                                             @typescript-eslint/no-unused-vars
+   15:3   error    'DollarSign' is defined but never used                                                                            @typescript-eslint/no-unused-vars
+   18:3   error    'AlertCircle' is defined but never used                                                                           @typescript-eslint/no-unused-vars
+   20:3   error    'MoreVertical' is defined but never used                                                                          @typescript-eslint/no-unused-vars
+   21:3   error    'FileText' is defined but never used                                                                              @typescript-eslint/no-unused-vars
+   26:25  error    'Carga' is defined but never used                                                                                 @typescript-eslint/no-unused-vars
+   41:47  error    'isAdmin' is assigned a value but never used                                                                      @typescript-eslint/no-unused-vars
+   69:6   warning  React Hook useEffect has a missing dependency: 'loadEmpleados'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+   85:7   error    'console' is not defined                                                                                          no-undef
+   92:34  error    'React' is not defined                                                                                            no-undef
+  132:7   error    'console' is not defined                                                                                          no-undef
+  138:10  error    'confirm' is not defined                                                                                          no-undef
+  156:7   error    'console' is not defined                                                                                          no-undef
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\components\conecta\EmpresaDashboardSection.tsx
+  28:9  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  35:3  error  'user' is defined but never used          @typescript-eslint/no-unused-vars
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\components\conecta\EmpresaPerfilSection.tsx
+  1:10  error  'Building2' is defined but never used     @typescript-eslint/no-unused-vars
+  1:47  error  'X' is defined but never used             @typescript-eslint/no-unused-vars
+  4:9   error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\components\conecta\EmpresaView.tsx
+     7:3   error    'AlertCircle' is defined but never used                                                                            @typescript-eslint/no-unused-vars
+    11:3   error    'Eye' is defined but never used                                                                                    @typescript-eslint/no-unused-vars
+    16:19  error    'User' is defined but never used                                                                                   @typescript-eslint/no-unused-vars
+    89:16  error    'setDocs' is assigned a value but never used                                                                       @typescript-eslint/no-unused-vars
+    93:10  error    'uploading' is assigned a value but never used                                                                     @typescript-eslint/no-unused-vars
+    95:26  error    'HTMLInputElement' is not defined                                                                                  no-undef
+   109:6   warning  React Hook useEffect has a missing dependency: 'loadData'. Either include it or remove the dependency array        react-hooks/exhaustive-deps
+   114:7   error    'console' is not defined                                                                                           no-undef
+   117:6   warning  React Hook useEffect has a missing dependency: 'selectedWorker'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+   122:7   error    'console' is not defined                                                                                           no-undef
+   123:7   error    'console' is not defined                                                                                           no-undef
+   124:7   error    'console' is not defined                                                                                           no-undef
+   128:7   error    'console' is not defined                                                                                           no-undef
+   131:9   error    'console' is not defined                                                                                           no-undef
+   138:9   error    'console' is not defined                                                                                           no-undef
+   144:11  error    'console' is not defined                                                                                           no-undef
+   150:11  error    'console' is not defined                                                                                           no-undef
+   157:11  error    'console' is not defined                                                                                           no-undef
+   160:11  error    'console' is not defined                                                                                           no-undef
+   168:11  error    'console' is not defined                                                                                           no-undef
+   175:13  error    'console' is not defined                                                                                           no-undef
+   177:13  error    'console' is not defined                                                                                           no-undef
+   183:9   error    'console' is not defined                                                                                           no-undef
+   194:7   error    'console' is not defined                                                                                           no-undef
+   204:9   error    'console' is not defined                                                                                           no-undef
+   207:7   error    'console' is not defined                                                                                           no-undef
+   217:9   error    'console' is not defined                                                                                           no-undef
+   220:7   error    'console' is not defined                                                                                           no-undef
+   221:7   error    'console' is not defined                                                                                           no-undef
+   225:7   error    'console' is not defined                                                                                           no-undef
+   278:7   error    'console' is not defined                                                                                           no-undef
+   279:7   error    'console' is not defined                                                                                           no-undef
+   280:7   error    'console' is not defined                                                                                           no-undef
+   281:7   error    'console' is not defined                                                                                           no-undef
+   282:7   error    'console' is not defined                                                                                           no-undef
+   283:7   error    'console' is not defined                                                                                           no-undef
+   284:7   error    'console' is not defined                                                                                           no-undef
+   290:7   error    'setTimeout' is not defined                                                                                        no-undef
+   291:9   error    'console' is not defined                                                                                           no-undef
+   292:9   error    'console' is not defined                                                                                           no-undef
+   293:9   error    'console' is not defined                                                                                           no-undef
+   303:7   error    'console' is not defined                                                                                           no-undef
+   311:5   error    'console' is not defined                                                                                           no-undef
+   324:9   error    'console' is not defined                                                                                           no-undef
+   329:61  error    Unexpected any. Specify a different type                                                                           @typescript-eslint/no-explicit-any
+   340:9   error    'console' is not defined                                                                                           no-undef
+   343:7   error    'console' is not defined                                                                                           no-undef
+   360:9   error    'handleUpload' is assigned a value but never used                                                                  @typescript-eslint/no-unused-vars
+   368:5   error    'setTimeout' is not defined                                                                                        no-undef
+   377:10  error    'confirm' is not defined                                                                                           no-undef
+   384:3   error    'console' is not defined                                                                                           no-undef
+   392:5   error    'console' is not defined                                                                                           no-undef
+   393:5   error    'console' is not defined                                                                                           no-undef
+   394:5   error    'console' is not defined                                                                                           no-undef
+   395:5   error    'console' is not defined                                                                                           no-undef
+   495:59  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`                                                    react/no-unescaped-entities
+   495:78  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`                                                    react/no-unescaped-entities
+   502:47  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`                                                    react/no-unescaped-entities
+   502:66  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`                                                    react/no-unescaped-entities
+   503:54  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`                                                    react/no-unescaped-entities
+   503:62  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`                                                    react/no-unescaped-entities
+   505:62  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`                                                    react/no-unescaped-entities
+   505:80  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`                                                    react/no-unescaped-entities
+   520:17  error    'console' is not defined                                                                                           no-undef
+   555:5   error    'console' is not defined                                                                                           no-undef
+   556:5   error    'console' is not defined                                                                                           no-undef
+   557:5   error    'console' is not defined                                                                                           no-undef
+   974:50  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`                                                    react/no-unescaped-entities
+   974:63  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`                                                    react/no-unescaped-entities
+  1019:27  error    'console' is not defined                                                                                           no-undef
+  1053:5   error    'console' is not defined                                                                                           no-undef
+  1054:5   error    'console' is not defined                                                                                           no-undef
+  1055:5   error    'console' is not defined                                                                                           no-undef
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\components\conecta\EnterpriseDocumentView.tsx
+    4:3   error    'Download' is defined but never used                                                                         @typescript-eslint/no-unused-vars
+    6:3   error    'AlertCircle' is defined but never used                                                                      @typescript-eslint/no-unused-vars
+    7:3   error    'CheckCircle2' is defined but never used                                                                     @typescript-eslint/no-unused-vars
+    8:3   error    'Clock' is defined but never used                                                                            @typescript-eslint/no-unused-vars
+    9:3   error    'Sparkles' is defined but never used                                                                         @typescript-eslint/no-unused-vars
+   11:3   error    'Users' is defined but never used                                                                            @typescript-eslint/no-unused-vars
+   76:10  error    'error' is assigned a value but never used                                                                   @typescript-eslint/no-unused-vars
+  118:9   error    'console' is not defined                                                                                     no-undef
+  136:9   error    'console' is not defined                                                                                     no-undef
+  138:9   error    'console' is not defined                                                                                     no-undef
+  139:9   error    'console' is not defined                                                                                     no-undef
+  191:9   error    'console' is not defined                                                                                     no-undef
+  219:7   error    'console' is not defined                                                                                     no-undef
+  234:6   warning  React Hook useEffect has a missing dependency: 'loadData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  239:11  error    'currentUser' is assigned a value but never used                                                             @typescript-eslint/no-unused-vars
+  635:30  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`                                              react/no-unescaped-entities
+  635:46  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`                                              react/no-unescaped-entities
+  640:39  error    'i' is defined but never used                                                                                @typescript-eslint/no-unused-vars
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\components\conecta\LoyChat.tsx
+   47:33  error    'HTMLDivElement' is not defined                                                                                      no-undef
+   48:27  error    'HTMLTextAreaElement' is not defined                                                                                 no-undef
+   64:6   warning  React Hook useEffect has a missing dependency: 'loadConversation'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+   94:7   error    'console' is not defined                                                                                             no-undef
+  118:7   error    'console' is not defined                                                                                             no-undef
+  147:30  error    'fetch' is not defined                                                                                               no-undef
+  195:28  error    'React' is not defined                                                                                               no-undef
+  200:29  error    'React' is not defined                                                                                               no-undef
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\components\conecta\LoyGatekeeper.tsx
+   10:3   error  'Filter' is defined but never used  @typescript-eslint/no-unused-vars
+  105:11  error  'console' is not defined            no-undef
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\components\conecta\MessageCenter.tsx
+    6:3   error    'Users' is defined but never used                                                                                                                                                    @typescript-eslint/no-unused-vars
+   11:3   error    'Filter' is defined but never used                                                                                                                                                   @typescript-eslint/no-unused-vars
+   60:10  error    'loading' is assigned a value but never used                                                                                                                                         @typescript-eslint/no-unused-vars
+   62:62  error    Unexpected any. Specify a different type                                                                                                                                             @typescript-eslint/no-explicit-any
+   64:33  error    'HTMLDivElement' is not defined                                                                                                                                                      no-undef
+   65:34  error    Unexpected any. Specify a different type                                                                                                                                             @typescript-eslint/no-explicit-any
+   76:5   error    'console' is not defined                                                                                                                                                             no-undef
+   89:13  error    'console' is not defined                                                                                                                                                             no-undef
+   95:9   error    'console' is not defined                                                                                                                                                             no-undef
+  103:6   warning  React Hook useEffect has missing dependencies: 'handleNewMessage', 'loadAvailableContacts', 'loadConversations', and 'supabase'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  116:6   warning  React Hook useEffect has missing dependencies: 'loadMessages' and 'markAsRead'. Either include them or remove the dependency array                                                   react-hooks/exhaustive-deps
+  118:44  error    Unexpected any. Specify a different type                                                                                                                                             @typescript-eslint/no-explicit-any
+  126:5   error    'console' is not defined                                                                                                                                                             no-undef
+  136:7   error    'console' is not defined                                                                                                                                                             no-undef
+  214:27  error    Unexpected any. Specify a different type                                                                                                                                             @typescript-eslint/no-explicit-any
+  243:31  error    Unexpected any. Specify a different type                                                                                                                                             @typescript-eslint/no-explicit-any
+  286:23  error    Unexpected any. Specify a different type                                                                                                                                             @typescript-eslint/no-explicit-any
+  297:17  error    Unexpected any. Specify a different type                                                                                                                                             @typescript-eslint/no-explicit-any
+  297:25  error    Unexpected any. Specify a different type                                                                                                                                             @typescript-eslint/no-explicit-any
+  383:36  error    Unexpected any. Specify a different type                                                                                                                                             @typescript-eslint/no-explicit-any
+  383:43  error    'isSent' is defined but never used                                                                                                                                                   @typescript-eslint/no-unused-vars
+  384:27  error    Unexpected any. Specify a different type                                                                                                                                             @typescript-eslint/no-explicit-any
+  456:5   error    'console' is not defined                                                                                                                                                             no-undef
+  478:7   error    'console' is not defined                                                                                                                                                             no-undef
+  484:5   error    'console' is not defined                                                                                                                                                             no-undef
+  546:45  error    Unexpected any. Specify a different type                                                                                                                                             @typescript-eslint/no-explicit-any
+  824:25  error    'showAvatar' is assigned a value but never used                                                                                                                                      @typescript-eslint/no-unused-vars
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\components\conecta\NotificationsPanel.tsx
+   5:3   error  'FileText' is defined but never used       @typescript-eslint/no-unused-vars
+   6:3   error  'UserPlus' is defined but never used       @typescript-eslint/no-unused-vars
+   9:3   error  'MessageSquare' is defined but never used  @typescript-eslint/no-unused-vars
+  20:46  error  'userRol' is defined but never used        @typescript-eslint/no-unused-vars
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\components\conecta\ProtectedRoute.tsx
+    6:13  error    'React' is not defined                                                                                                          no-undef
+   73:17  warning  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+  102:13  error    'React' is not defined                                                                                                          no-undef
+  104:14  error    'React' is not defined                                                                                                          no-undef
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\components\conecta\SubscriptionManager.tsx
+    7:3   error    'AlertCircle' is defined but never used                                                                              @typescript-eslint/no-unused-vars
+    9:3   error    'DollarSign' is defined but never used                                                                               @typescript-eslint/no-unused-vars
+   10:3   error    'TrendingUp' is defined but never used                                                                               @typescript-eslint/no-unused-vars
+   16:3   error    'ChevronRight' is defined but never used                                                                             @typescript-eslint/no-unused-vars
+   17:3   error    'RefreshCw' is defined but never used                                                                                @typescript-eslint/no-unused-vars
+   77:50  error    'isAdmin' is assigned a value but never used                                                                         @typescript-eslint/no-unused-vars
+   90:6   warning  React Hook useEffect has a missing dependency: 'loadSubscription'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  119:7   error    'console' is not defined                                                                                             no-undef
+  167:7   error    'console' is not defined                                                                                             no-undef
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\components\conecta\SuperAdminView.tsx
+     4:3   error    'Users' is defined but never used                                                                                                                                                            @typescript-eslint/no-unused-vars
+     9:3   error    'CheckCircle' is defined but never used                                                                                                                                                      @typescript-eslint/no-unused-vars
+    13:3   error    'Upload' is defined but never used                                                                                                                                                           @typescript-eslint/no-unused-vars
+    17:10  error    'useAuth' is defined but never used                                                                                                                                                          @typescript-eslint/no-unused-vars
+    21:10  error    'SecureDocumentView' is defined but never used                                                                                                                                               @typescript-eslint/no-unused-vars
+   153:7   error    'console' is not defined                                                                                                                                                                     no-undef
+   161:6   warning  React Hook useEffect has a missing dependency: 'reload'. Either include it or remove the dependency array                                                                                    react-hooks/exhaustive-deps
+   253:11  error    'console' is not defined                                                                                                                                                                     no-undef
+   274:11  error    'console' is not defined                                                                                                                                                                     no-undef
+   280:13  error    'console' is not defined                                                                                                                                                                     no-undef
+   288:13  error    'console' is not defined                                                                                                                                                                     no-undef
+   303:13  error    'console' is not defined                                                                                                                                                                     no-undef
+   311:15  error    'console' is not defined                                                                                                                                                                     no-undef
+   353:15  error    'console' is not defined                                                                                                                                                                     no-undef
+   358:15  error    'console' is not defined                                                                                                                                                                     no-undef
+   386:32  error    'CustomEvent' is not defined                                                                                                                                                                 no-undef
+   388:7   error    'console' is not defined                                                                                                                                                                     no-undef
+   405:26  error    'prompt' is not defined                                                                                                                                                                      no-undef
+   444:9   error    'console' is not defined                                                                                                                                                                     no-undef
+   456:7   error    'console' is not defined                                                                                                                                                                     no-undef
+   480:30  error    'fetch' is not defined                                                                                                                                                                       no-undef
+   521:9   error    'console' is not defined                                                                                                                                                                     no-undef
+   534:11  error    'console' is not defined                                                                                                                                                                     no-undef
+   537:11  error    'console' is not defined                                                                                                                                                                     no-undef
+   553:7   error    'console' is not defined                                                                                                                                                                     no-undef
+   576:7   error    'console' is not defined                                                                                                                                                                     no-undef
+   584:10  error    'confirm' is not defined                                                                                                                                                                     no-undef
+   603:7   error    'console' is not defined                                                                                                                                                                     no-undef
+   644:7   error    'console' is not defined                                                                                                                                                                     no-undef
+   656:5   error    'console' is not defined                                                                                                                                                                     no-undef
+   665:7   error    'console' is not defined                                                                                                                                                                     no-undef
+   670:24  error    'console' is not defined                                                                                                                                                                     no-undef
+   674:7   error    'console' is not defined                                                                                                                                                                     no-undef
+   682:9   error    'console' is not defined                                                                                                                                                                     no-undef
+   692:9   error    'console' is not defined                                                                                                                                                                     no-undef
+   697:27  error    'console' is not defined                                                                                                                                                                     no-undef
+   709:9   error    'console' is not defined                                                                                                                                                                     no-undef
+   716:9   error    'console' is not defined                                                                                                                                                                     no-undef
+   720:7   error    'console' is not defined                                                                                                                                                                     no-undef
+   727:19  error    'React' is not defined                                                                                                                                                                       no-undef
+   737:19  error    'React' is not defined                                                                                                                                                                       no-undef
+  1179:27  error    'navigator' is not defined                                                                                                                                                                   no-undef
+  1216:27  error    'navigator' is not defined                                                                                                                                                                   no-undef
+  1775:35  error    React Hook "useState" is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?   react-hooks/rules-of-hooks
+  1776:23  error    'setEmpresaId' is assigned a value but never used                                                                                                                                            @typescript-eslint/no-unused-vars
+  1776:39  error    React Hook "useState" is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?   react-hooks/rules-of-hooks
+  1777:41  error    React Hook "useState" is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?   react-hooks/rules-of-hooks
+  1780:5   error    React Hook "useEffect" is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?  react-hooks/rules-of-hooks
+  1795:8   warning  React Hook useEffect has a missing dependency: 'supabase'. Either include it or remove the dependency array                                                                                  react-hooks/exhaustive-deps
+  1894:15  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`                                                                                                                              react/no-unescaped-entities
+  1894:26  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`                                                                                                                              react/no-unescaped-entities
+  1936:13  error    'React' is not defined                                                                                                                                                                       no-undef
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\components\conecta\UserEnterpriseAssignment.tsx
+    7:3   error    'Search' is defined but never used                                                                           @typescript-eslint/no-unused-vars
+   30:11  error    'Assignment' is defined but never used                                                                       @typescript-eslint/no-unused-vars
+   39:28  error    'apiDelete' is assigned a value but never used                                                               @typescript-eslint/no-unused-vars
+   52:6   warning  React Hook useEffect has a missing dependency: 'loadData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+   78:14  error    'err' is defined but never used                                                                              @typescript-eslint/no-unused-vars
+  116:14  error    'err' is defined but never used                                                                              @typescript-eslint/no-unused-vars
+  141:14  error    'err' is defined but never used                                                                              @typescript-eslint/no-unused-vars
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\components\conecta\UsuarioView.tsx
+     4:3   error    'Download' is defined but never used                                                                         @typescript-eslint/no-unused-vars
+     5:3   error    'Eye' is defined but never used                                                                              @typescript-eslint/no-unused-vars
+    16:3   error    'Camera' is defined but never used                                                                           @typescript-eslint/no-unused-vars
+    72:9   error    Unexpected any. Specify a different type                                                                     @typescript-eslint/no-explicit-any
+   108:9   error    'console' is not defined                                                                                     no-undef
+   122:61  error    Unexpected any. Specify a different type                                                                     @typescript-eslint/no-explicit-any
+   138:7   error    'console' is not defined                                                                                     no-undef
+   148:6   warning  React Hook useEffect has a missing dependency: 'loadDocs'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+   169:16  error    'err' is defined but never used                                                                              @typescript-eslint/no-unused-vars
+   175:6   warning  React Hook useEffect has a missing dependency: 'supabase'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+   406:10  error    Unexpected any. Specify a different type                                                                     @typescript-eslint/no-explicit-any
+   529:9   error    Unexpected any. Specify a different type                                                                     @typescript-eslint/no-explicit-any
+   586:19  error    Unexpected any. Specify a different type                                                                     @typescript-eslint/no-explicit-any
+   629:19  error    Unexpected any. Specify a different type                                                                     @typescript-eslint/no-explicit-any
+  1009:9   error    'React' is not defined                                                                                       no-undef
+  1050:9   error    'React' is not defined                                                                                       no-undef
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\components\ui\aspect-ratio.tsx
+  7:4  error  'React' is not defined  no-undef
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\components\ui\badge.tsx
+  46:17  warning  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\components\ui\button.tsx
+  58:18  warning  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\components\ui\calendar.tsx
+  63:22  error  'className' is missing in props validation  react/prop-types
+  66:23  error  'className' is missing in props validation  react/prop-types
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\components\ui\carousel.tsx
+  79:33  error  'HTMLDivElement' is not defined  no-undef
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\components\ui\collapsible.tsx
+   7:4  error  'React' is not defined  no-undef
+  13:4  error  'React' is not defined  no-undef
+  24:4  error  'React' is not defined  no-undef
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\components\ui\form.tsx
+  160:3  warning  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\components\ui\navigation-menu.tsx
+  167:3  warning  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\components\ui\sidebar.tsx
+   98:35  error    'KeyboardEvent' is not defined                                                                                                  no-undef
+  725:3   warning  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\components\ui\skeleton.tsx
+  3:44  error  'React' is not defined  no-undef
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\components\ui\sonner.tsx
+  18:14  error  'React' is not defined  no-undef
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\components\ui\toggle.tsx
+  47:18  warning  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\context\AuthContext.tsx
+   16:17  warning  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components            react-refresh/only-export-components
+   56:37  error    'Response' is not defined                                                                                                                 no-undef
+   57:54  error    'Response' is not defined                                                                                                                 no-undef
+   58:53  error    'Response' is not defined                                                                                                                 no-undef
+   59:40  error    'Response' is not defined                                                                                                                 no-undef
+   60:41  error    'FormData' is not defined                                                                                                                 no-undef
+   60:62  error    'Response' is not defined                                                                                                                 no-undef
+  110:7   error    'console' is not defined                                                                                                                  no-undef
+  154:13  error    'console' is not defined                                                                                                                  no-undef
+  187:13  error    'console' is not defined                                                                                                                  no-undef
+  195:6   warning  React Hook useEffect has missing dependencies: 'loadUserProfile' and 'supabase.auth'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  198:13  error    'data' is assigned a value but never used                                                                                                 @typescript-eslint/no-unused-vars
+  208:19  error    'authData' is assigned a value but never used                                                                                             @typescript-eslint/no-unused-vars
+  271:5   error    'fetch' is not defined                                                                                                                    no-undef
+  274:5   error    'fetch' is not defined                                                                                                                    no-undef
+  281:5   error    'fetch' is not defined                                                                                                                    no-undef
+  288:5   error    'fetch' is not defined                                                                                                                    no-undef
+  293:48  error    'FormData' is not defined                                                                                                                 no-undef
+  294:5   error    'fetch' is not defined                                                                                                                    no-undef
+  324:17  warning  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components            react-refresh/only-export-components
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\hooks\useAuditLogs.ts
+   93:9   error  'console' is not defined  no-undef
+  164:24  error  'Blob' is not defined     no-undef
+  166:19  error  'URL' is not defined      no-undef
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\hooks\useDocumentCategories.ts
+  108:7  error  'console' is not defined  no-undef
+  218:9  error  'console' is not defined  no-undef
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\hooks\useDocumentTracking.ts
+   55:17  error  'data' is assigned a value but never used  @typescript-eslint/no-unused-vars
+   65:25  error  'navigator' is not defined                 no-undef
+   84:9   error  'console' is not defined                   no-undef
+  146:9   error  'console' is not defined                   no-undef
+  193:9   error  'console' is not defined                   no-undef
+  249:7   error  'console' is not defined                   no-undef
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\hooks\useDocumentVersions.ts
+  181:40  error  'crypto' is not defined       no-undef
+  182:25  error  'TextEncoder' is not defined  no-undef
+  184:30  error  'crypto' is not defined       no-undef
+  190:20  error  'btoa' is not defined         no-undef
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\hooks\useEmail.ts
+  40:32  error  'fetch' is not defined  no-undef
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\hooks\useEmpleados.ts
+  108:27  error  'empleadoId' is defined but never used  @typescript-eslint/no-unused-vars
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\hooks\useLREReports.ts
+  188:24  error  'Blob' is not defined     no-undef
+  191:19  error  'URL' is not defined      no-undef
+  198:7   error  'URL' is not defined      no-undef
+  206:24  error  'Blob' is not defined     no-undef
+  207:19  error  'URL' is not defined      no-undef
+  214:7   error  'URL' is not defined      no-undef
+  305:9   error  'console' is not defined  no-undef
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\hooks\useNotificaciones.ts
+   64:9  error  'console' is not defined  no-undef
+   89:7  error  'console' is not defined  no-undef
+  112:9  error  'console' is not defined  no-undef
+  146:9  error  'console' is not defined  no-undef
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\hooks\useNotifications.test.tsx
+  1:32  error  'vi' is defined but never used  @typescript-eslint/no-unused-vars
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\hooks\useNotifications.ts
+  26:7  error  'setTimeout' is not defined  no-undef
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\hooks\useSecureDownload.ts
+   52:23  error  'navigator' is not defined  no-undef
+   60:7   error  'console' is not defined    no-undef
+  179:21  error  'navigator' is not defined  no-undef
+  183:7   error  'console' is not defined    no-undef
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\pages\Contacto.tsx
+  13:19  error  'React' is not defined                no-undef
+  22:19  error  'React' is not defined                no-undef
+  34:18  error  'React' is not defined                no-undef
+  54:8   error  'React' is not defined                no-undef
+  54:26  error  'HTMLInputElement' is not defined     no-undef
+  54:45  error  'HTMLTextAreaElement' is not defined  no-undef
+  59:28  error  'React' is not defined                no-undef
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\pages\Dashboard.tsx
+  102:7   error  'setTimeout' is not defined      no-undef
+  111:5   error  'setPassSuccess' is not defined  no-undef
+  128:5   error  'setPassSaving' is not defined   no-undef
+  133:5   error  'setPassSaving' is not defined   no-undef
+  135:7   error  'setPassSuccess' is not defined  no-undef
+  141:7   error  'setTimeout' is not defined      no-undef
+  141:24  error  'setPassSuccess' is not defined  no-undef
+  147:21  error  'React' is not defined           no-undef
+  159:24  error  'React' is not defined           no-undef
+  165:21  error  'React' is not defined           no-undef
+  174:47  error  'React' is not defined           no-undef
+  713:18  error  'passSuccess' is not defined     no-undef
+  729:22  error  'passSuccess' is not defined     no-undef
+  850:31  error  'passSaving' is not defined      no-undef
+  856:31  error  'passSaving' is not defined      no-undef
+  860:32  error  'passSaving' is not defined      no-undef
+  864:22  error  'passSaving' is not defined      no-undef
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\pages\ForgotPassword.tsx
+   3:27  error  'CheckCircle' is defined but never used  @typescript-eslint/no-unused-vars
+   3:40  error  'AlertCircle' is defined but never used  @typescript-eslint/no-unused-vars
+  43:9   error  'console' is not defined                 no-undef
+  51:7   error  'console' is not defined                 no-undef
+  59:21  error  'React' is not defined                   no-undef
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\pages\Home.tsx
+  79:21  error  'React' is not defined  no-undef
+  87:17  error  'React' is not defined  no-undef
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\pages\QuienesSomos.tsx
+  1:17  error  'React' is not defined  no-undef
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\pages\ResetPassword.tsx
+  25:34  error  'React' is not defined             no-undef
+  50:9   error  'setTimeout' is not defined        no-undef
+  54:14  error  'error' is defined but never used  @typescript-eslint/no-unused-vars
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\pages\conecta\ConectaDashboard.tsx
+  13:3  error  'X' is defined but never used            @typescript-eslint/no-unused-vars
+  14:3  error  'ChevronDown' is defined but never used  @typescript-eslint/no-unused-vars
+  31:9  error  'React' is not defined                   no-undef
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\pages\conecta\ConectaLogin.tsx
+  404:39  error  'HTMLButtonElement' is not defined  no-undef
+  408:37  error  'HTMLButtonElement' is not defined  no-undef
+  451:42  error  'HTMLButtonElement' is not defined  no-undef
+  456:42  error  'HTMLButtonElement' is not defined  no-undef
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\pages\conecta\DocumentacionPage.tsx
+   6:3  error  'Users' is defined but never used       @typescript-eslint/no-unused-vars
+   9:3  error  'Search' is defined but never used      @typescript-eslint/no-unused-vars
+  10:3  error  'Filter' is defined but never used      @typescript-eslint/no-unused-vars
+  11:3  error  'Download' is defined but never used    @typescript-eslint/no-unused-vars
+  12:3  error  'Eye' is defined but never used         @typescript-eslint/no-unused-vars
+  13:3  error  'Clock' is defined but never used       @typescript-eslint/no-unused-vars
+  16:3  error  'Building2' is defined but never used   @typescript-eslint/no-unused-vars
+  20:3  error  'Globe' is defined but never used       @typescript-eslint/no-unused-vars
+  21:3  error  'Cpu' is defined but never used         @typescript-eslint/no-unused-vars
+  23:3  error  'TrendingUp' is defined but never used  @typescript-eslint/no-unused-vars
+  24:3  error  'Archive' is defined but never used     @typescript-eslint/no-unused-vars
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\pages\conecta\EmpresaPage.tsx
+  6:3  error  'Upload' is defined but never used  @typescript-eslint/no-unused-vars
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\pages\conecta\PagosPage.tsx
+   13:3   error  'Shield' is defined but never used                                                                                                                                                           @typescript-eslint/no-unused-vars
+   18:24  error  'Subscription' is defined but never used                                                                                                                                                     @typescript-eslint/no-unused-vars
+   46:41  error  'React' is not defined                                                                                                                                                                       no-undef
+   91:3   error  React Hook "useEffect" is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?  react-hooks/rules-of-hooks
+  130:34  error  'payment' is defined but never used                                                                                                                                                          @typescript-eslint/no-unused-vars
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\pages\conecta\PerfilPage.tsx
+   1:20  error  'useEffect' is defined but never used                                                                                                                                                       @typescript-eslint/no-unused-vars
+  32:35  error  React Hook "useState" is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?  react-hooks/rules-of-hooks
+  40:43  error  React Hook "useState" is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?  react-hooks/rules-of-hooks
+  46:35  error  React Hook "useState" is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?  react-hooks/rules-of-hooks
+  47:55  error  React Hook "useState" is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?  react-hooks/rules-of-hooks
+  48:57  error  React Hook "useState" is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?  react-hooks/rules-of-hooks
+  50:41  error  'React' is not defined                                                                                                                                                                      no-undef
+  69:42  error  'React' is not defined                                                                                                                                                                      no-undef
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\routes.tsx
+  13:7  error    'Dashboard' is assigned a value but never used                                                          @typescript-eslint/no-unused-vars
+  22:7  warning  Fast refresh only works when a file only exports components. Move your component(s) to a separate file  react-refresh/only-export-components
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\types\database.ts
+  142:34  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  260:29  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\app\utils\storage.ts
+  24:5  error  'console' is not defined  no-undef
+  36:9  error  'File' is not defined     no-undef
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\src\utils\api.ts
+   40:14  error  'RequestInit' is not defined              no-undef
+   42:19  error  'localStorage' is not defined             no-undef
+   44:28  error  'fetch' is not defined                    no-undef
+   85:48  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   87:25  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   90:34  error  'FormData' is not defined                 no-undef
+   90:53  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   91:19  error  'localStorage' is not defined             no-undef
+   93:28  error  'fetch' is not defined                    no-undef
+  117:14  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  122:51  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  136:15  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  137:24  error  'URLSearchParams' is not defined          no-undef
+  143:25  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+G:\visual estudio\Microsoft VS Code\Crearpginadeasesora\vite.config.ts
+  17:25  error  '__dirname' is not defined  no-undef
+  24:17  error  'process' is not defined    no-undef
+  28:36  error  'process' is not defined    no-undef
+
+Ô£û 512 problems (483 errors, 29 warnings)
+
